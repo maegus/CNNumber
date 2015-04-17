@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CNNumberHelper.h"
 
-@interface CNNumber : NSObject
+@interface CNNumberParser : NSObject
+
++ (NSString *)stringFromArabic:(NSInteger)integer;
++ (NSArray *)removeExtraZeroFromArray:(NSArray *)array;
++ (NSArray *)addUnitToArray:(NSArray *)array;
+
++ (NSString *)cn_numberWithInteger:(NSInteger)integer;
 
 @end

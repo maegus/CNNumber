@@ -10,4 +10,6 @@
 
 @interface NSMutableArray (Helper)
 
+- (void)reverse;
+
 @end

@@ -10,4 +10,7 @@
 
 @interface NSString (Helper)
 
+- (BOOL)isZero;
+- (NSArray *)splitString;
+
 @end

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		18455ADB1AE0E71B00381947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18455ADA1AE0E71B00381947 /* main.m */; };
+		18455AE41AE0E80900381947 /* CNNumberParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18455AE31AE0E80900381947 /* CNNumberParser.m */; };
+		18455AEA1AE0F79200381947 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18455AE91AE0F79200381947 /* NSString+Helper.m */; };
+		18455AED1AE0F82900381947 /* NSArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18455AEC1AE0F82900381947 /* NSArray+Helper.m */; };
+		18455AF01AE0FCDF00381947 /* NSMutableArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18455AEF1AE0FCDF00381947 /* NSMutableArray+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,15 @@
 /* Begin PBXFileReference section */
 		18455AD71AE0E71B00381947 /* CNNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CNNumber; sourceTree = BUILT_PRODUCTS_DIR; };
 		18455ADA1AE0E71B00381947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18455AE21AE0E80900381947 /* CNNumberParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNumberParser.h; sourceTree = "<group>"; };
+		18455AE31AE0E80900381947 /* CNNumberParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNNumberParser.m; sourceTree = "<group>"; };
+		18455AE81AE0F79200381947 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		18455AE91AE0F79200381947 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		18455AEB1AE0F82900381947 /* NSArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Helper.h"; sourceTree = "<group>"; };
+		18455AEC1AE0F82900381947 /* NSArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helper.m"; sourceTree = "<group>"; };
+		18455AEE1AE0FCDF00381947 /* NSMutableArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Helper.h"; sourceTree = "<group>"; };
+		18455AEF1AE0FCDF00381947 /* NSMutableArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Helper.m"; sourceTree = "<group>"; };
+		18455AF11AE0FD1800381947 /* CNNumberHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNNumberHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +70,27 @@
 		18455AD91AE0E71B00381947 /* CNNumber */ = {
 			isa = PBXGroup;
 			children = (
+				18455AE11AE0E7B300381947 /* Pod */,
 				18455ADA1AE0E71B00381947 /* main.m */,
 			);
 			path = CNNumber;
 			sourceTree = "<group>";
+		};
+		18455AE11AE0E7B300381947 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				18455AE21AE0E80900381947 /* CNNumberParser.h */,
+				18455AE31AE0E80900381947 /* CNNumberParser.m */,
+				18455AE81AE0F79200381947 /* NSString+Helper.h */,
+				18455AE91AE0F79200381947 /* NSString+Helper.m */,
+				18455AEB1AE0F82900381947 /* NSArray+Helper.h */,
+				18455AEC1AE0F82900381947 /* NSArray+Helper.m */,
+				18455AEE1AE0FCDF00381947 /* NSMutableArray+Helper.h */,
+				18455AEF1AE0FCDF00381947 /* NSMutableArray+Helper.m */,
+				18455AF11AE0FD1800381947 /* CNNumberHelper.h */,
+			);
+			path = Pod;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -119,6 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18455ADB1AE0E71B00381947 /* main.m in Sources */,
+				18455AE41AE0E80900381947 /* CNNumberParser.m in Sources */,
+				18455AED1AE0F82900381947 /* NSArray+Helper.m in Sources */,
+				18455AEA1AE0F79200381947 /* NSString+Helper.m in Sources */,
+				18455AF01AE0FCDF00381947 /* NSMutableArray+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

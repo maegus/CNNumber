@@ -10,4 +10,7 @@
 
 @interface NSArray (Helper)
 
+- (NSString *)stringFromArray;
+- (NSArray *)reverseArray;
+
 @end
