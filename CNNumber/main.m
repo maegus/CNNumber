@@ -13,7 +13,6 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         NSString *a = [CNNumberParser cn_numberWithInteger:13];
         NSLog(@"%@", a);
-//        NSLog(@"%@", [a stringFromArray]);
     }
     return 0;
 }

@@ -7,10 +7,7 @@
 //
 
 #import "CNNumberParser.h"
-
-@interface CNNumberParser ()
-
-@end
+#import "CNNumberHelper.h"
 
 @implementation CNNumberParser
 
