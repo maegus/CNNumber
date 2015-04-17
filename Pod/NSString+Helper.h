@@ -11,6 +11,6 @@
 @interface NSString (Helper)
 
 - (BOOL)isZero;
-- (NSArray *)splitString;
+- (NSArray *)split;
 
 @end

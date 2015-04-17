@@ -16,7 +16,7 @@
 
 + (NSString *)cn_numberWithInteger:(NSInteger)integer {
     NSString *string = [self stringFromArabic:integer];
-    NSArray *divideToArray = [string splitString];
+    NSArray *divideToArray = [string split];
     NSArray *unitArray = [self addUnitToArray:divideToArray];
     NSArray *resultArray = [self removeExtraZeroFromArray:unitArray];
     NSString *result = [resultArray stringFromArray];
@@ -49,8 +49,7 @@
     for (NSNumber *number in unitIndex) {
         unitArray[number.integerValue] = [self parseUnitDictionary][number];
     }
-    NSLog(@"%@", unitArray);
-
+    
     NSMutableArray *resultArray = [[NSMutableArray alloc] init];
     for (int i = 0 ; i < unitArray.count; i++) {
         [resultArray addObject:unitArray[i]];
