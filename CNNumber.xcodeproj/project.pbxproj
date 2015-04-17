@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		18455ADB1AE0E71B00381947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18455ADA1AE0E71B00381947 /* main.m */; };
-		18BFCBF61AE1204E008A4247 /* CNNumberParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFCBEE1AE1204E008A4247 /* CNNumberParser.m */; };
-		18BFCBF71AE1204E008A4247 /* NSArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFCBF11AE1204E008A4247 /* NSArray+Helper.m */; };
-		18BFCBF81AE1204E008A4247 /* NSMutableArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFCBF31AE1204E008A4247 /* NSMutableArray+Helper.m */; };
-		18BFCBF91AE1204E008A4247 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFCBF51AE1204E008A4247 /* NSString+Helper.m */; };
+		18BFCC191AE1218A008A4247 /* CNNumberParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFCC101AE1218A008A4247 /* CNNumberParser.m */; };
+		18BFCC1A1AE1218A008A4247 /* NSArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFCC141AE1218A008A4247 /* NSArray+Helper.m */; };
+		18BFCC1B1AE1218A008A4247 /* NSMutableArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFCC161AE1218A008A4247 /* NSMutableArray+Helper.m */; };
+		18BFCC1C1AE1218A008A4247 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFCC181AE1218A008A4247 /* NSString+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,15 +29,16 @@
 /* Begin PBXFileReference section */
 		18455AD71AE0E71B00381947 /* CNNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CNNumber; sourceTree = BUILT_PRODUCTS_DIR; };
 		18455ADA1AE0E71B00381947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18BFCBEC1AE1204E008A4247 /* CNNumberHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNumberHelper.h; sourceTree = "<group>"; };
-		18BFCBED1AE1204E008A4247 /* CNNumberParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNumberParser.h; sourceTree = "<group>"; };
-		18BFCBEE1AE1204E008A4247 /* CNNumberParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNNumberParser.m; sourceTree = "<group>"; };
-		18BFCBF01AE1204E008A4247 /* NSArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Helper.h"; sourceTree = "<group>"; };
-		18BFCBF11AE1204E008A4247 /* NSArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helper.m"; sourceTree = "<group>"; };
-		18BFCBF21AE1204E008A4247 /* NSMutableArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Helper.h"; sourceTree = "<group>"; };
-		18BFCBF31AE1204E008A4247 /* NSMutableArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Helper.m"; sourceTree = "<group>"; };
-		18BFCBF41AE1204E008A4247 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
-		18BFCBF51AE1204E008A4247 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		18BFCC0D1AE1218A008A4247 /* CNNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNumber.h; sourceTree = "<group>"; };
+		18BFCC0F1AE1218A008A4247 /* CNNumberParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNumberParser.h; sourceTree = "<group>"; };
+		18BFCC101AE1218A008A4247 /* CNNumberParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNNumberParser.m; sourceTree = "<group>"; };
+		18BFCC121AE1218A008A4247 /* CNNumberHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNumberHelper.h; sourceTree = "<group>"; };
+		18BFCC131AE1218A008A4247 /* NSArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Helper.h"; sourceTree = "<group>"; };
+		18BFCC141AE1218A008A4247 /* NSArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helper.m"; sourceTree = "<group>"; };
+		18BFCC151AE1218A008A4247 /* NSMutableArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Helper.h"; sourceTree = "<group>"; };
+		18BFCC161AE1218A008A4247 /* NSMutableArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Helper.m"; sourceTree = "<group>"; };
+		18BFCC171AE1218A008A4247 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		18BFCC181AE1218A008A4247 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,32 +71,41 @@
 		18455AD91AE0E71B00381947 /* CNNumber */ = {
 			isa = PBXGroup;
 			children = (
-				18BFCBEB1AE1204E008A4247 /* Pod */,
+				18BFCC0C1AE1218A008A4247 /* Pod */,
 				18455ADA1AE0E71B00381947 /* main.m */,
 			);
 			path = CNNumber;
 			sourceTree = "<group>";
 		};
-		18BFCBEB1AE1204E008A4247 /* Pod */ = {
+		18BFCC0C1AE1218A008A4247 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				18BFCBEC1AE1204E008A4247 /* CNNumberHelper.h */,
-				18BFCBED1AE1204E008A4247 /* CNNumberParser.h */,
-				18BFCBEE1AE1204E008A4247 /* CNNumberParser.m */,
-				18BFCBEF1AE1204E008A4247 /* Helper */,
+				18BFCC0D1AE1218A008A4247 /* CNNumber.h */,
+				18BFCC0E1AE1218A008A4247 /* Core */,
+				18BFCC111AE1218A008A4247 /* Helper */,
 			);
 			path = Pod;
 			sourceTree = SOURCE_ROOT;
 		};
-		18BFCBEF1AE1204E008A4247 /* Helper */ = {
+		18BFCC0E1AE1218A008A4247 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				18BFCBF01AE1204E008A4247 /* NSArray+Helper.h */,
-				18BFCBF11AE1204E008A4247 /* NSArray+Helper.m */,
-				18BFCBF21AE1204E008A4247 /* NSMutableArray+Helper.h */,
-				18BFCBF31AE1204E008A4247 /* NSMutableArray+Helper.m */,
-				18BFCBF41AE1204E008A4247 /* NSString+Helper.h */,
-				18BFCBF51AE1204E008A4247 /* NSString+Helper.m */,
+				18BFCC0F1AE1218A008A4247 /* CNNumberParser.h */,
+				18BFCC101AE1218A008A4247 /* CNNumberParser.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		18BFCC111AE1218A008A4247 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18BFCC121AE1218A008A4247 /* CNNumberHelper.h */,
+				18BFCC131AE1218A008A4247 /* NSArray+Helper.h */,
+				18BFCC141AE1218A008A4247 /* NSArray+Helper.m */,
+				18BFCC151AE1218A008A4247 /* NSMutableArray+Helper.h */,
+				18BFCC161AE1218A008A4247 /* NSMutableArray+Helper.m */,
+				18BFCC171AE1218A008A4247 /* NSString+Helper.h */,
+				18BFCC181AE1218A008A4247 /* NSString+Helper.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -156,11 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BFCBF91AE1204E008A4247 /* NSString+Helper.m in Sources */,
-				18BFCBF61AE1204E008A4247 /* CNNumberParser.m in Sources */,
+				18BFCC1C1AE1218A008A4247 /* NSString+Helper.m in Sources */,
+				18BFCC191AE1218A008A4247 /* CNNumberParser.m in Sources */,
 				18455ADB1AE0E71B00381947 /* main.m in Sources */,
-				18BFCBF71AE1204E008A4247 /* NSArray+Helper.m in Sources */,
-				18BFCBF81AE1204E008A4247 /* NSMutableArray+Helper.m in Sources */,
+				18BFCC1A1AE1218A008A4247 /* NSArray+Helper.m in Sources */,
+				18BFCC1B1AE1218A008A4247 /* NSMutableArray+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

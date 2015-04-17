@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CNNumberParser.h"
+#import "CNNumber.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
