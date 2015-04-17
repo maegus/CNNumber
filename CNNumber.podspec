@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
 
   s.subspec "Core" do |ss|
       ss.source_files = "Pod/Core/**"
-      ss.dependencies "Pod/Helper"
+      ss.dependency "Pod/Helper"
   end
 
   s.subspec "Helper" do |ss|
